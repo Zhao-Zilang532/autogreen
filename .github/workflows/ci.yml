@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: "0 8,10,14,16 * * *"
+    - cron: "2 5,9,20,22 * * *"
   workflow_dispatch:
 
 jobs:
@@ -20,8 +20,8 @@ jobs:
 
       - name: Set up Git configuration
         run: |
-          git config --local user.email "1497055242@qq.com"
-          git config --local user.name "Qi_YiJun"
+          git config --local user.email "x366510167532@outlook.com"
+          git config --local user.name "Zhao-Zilang532"
 
       - name: Make changes
         run: |
